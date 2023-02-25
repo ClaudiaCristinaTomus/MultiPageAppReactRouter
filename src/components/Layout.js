@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
         <>
             <Header />
             <div className={classes.container}>{children}</div>
+          
         </>
     );
 };
